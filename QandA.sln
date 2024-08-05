@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QandA", "QandA.csproj", "{21D17C76-C007-47E8-856B-BB33C59121DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendTests", "BackendTests\BackendTests.csproj", "{36CA8294-A88D-47A6-8DCB-178897E2642D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21D17C76-C007-47E8-856B-BB33C59121DE} = {21D17C76-C007-47E8-856B-BB33C59121DE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21D17C76-C007-47E8-856B-BB33C59121DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D17C76-C007-47E8-856B-BB33C59121DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D17C76-C007-47E8-856B-BB33C59121DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D17C76-C007-47E8-856B-BB33C59121DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CA8294-A88D-47A6-8DCB-178897E2642D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CA8294-A88D-47A6-8DCB-178897E2642D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CA8294-A88D-47A6-8DCB-178897E2642D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CA8294-A88D-47A6-8DCB-178897E2642D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B40EB61-C1D4-4F68-BCAB-0894B799A3A1}
+	EndGlobalSection
+EndGlobal
